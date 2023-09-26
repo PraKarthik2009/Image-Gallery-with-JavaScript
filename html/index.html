@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery with JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <a href="#"data-value="Krv" id="logo" class="logo">Krv</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+   <nav class="navbar">
+      <a href="#home" data-value="Home" class="active" >Home</a>
+      <a href="#about"data-value="Works">Works</a>
+      <a href="#tst"data-value="Projects">Projects</a>
+      <a href="#"data-value="Gallery">Gallery</a>
+      <a href="#"data-value="Test">Test</a>
+   </nav>
+   </header>
+ 
+<!---- Gallery section Design -->
+    <div class="lightbox">
+      <div class="wrapper">
+        <header>
+          <div class="memory">
+            <i class="uil uil-camera"></i>
+            <span></span>
+          </div>
+          <div class="buttons">
+            <i class="uil uil-import"></i>
+            <i class="close-icon uil uil-times"></i>
+          </div>
+        </header>
+   <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img"></div>
+        </div>
+      </div>
+    </div>
+    <section class="search">
+    
+      <div class="content"> 
+        <div class="search-box">
+          <i class="uil uil-search"></i>
+          <input id="text" type="text" placeholder="Search images">
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="Images">Images</span>
+          <span class="item" data-name="videos">Videos</span>
+        </div>
+      </nav>
+      <ul class="images"></ul>
+      <button class="load-more">Load More</button>
+    </section>
+  </body>
+</html>
